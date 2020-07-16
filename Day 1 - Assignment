@@ -1,0 +1,88 @@
+/* FIRST ANSWER
+1. console.log() ------- Its is used to print any variables define before
+Example 1
+
+var name = "Mary";
+console.log(name);
+
+ 
+2. console.time('Time taken');
+This method gonna show us the time taken in a operation
+console.timeEnd('Time taken');
+
+3. console.error("an error ocurrer");
+Show us an error icon
+
+4. console.warn("this is a warning");
+show us a warning icon
+
+5. console.table({a, b, c});
+This for an array, first we need to declare the array with the information
+then we gonna print that with console.table
+Example:
+
+var a = {name: "Baby", age: "1", place: "cradle"}
+var b= {name: "Carr", age: "23", city: "San jose"}
+var c = {name: "Betty", age: "40", city: "barcelona"}
+console.table({a, b, c});
+
+
+6. console.log('%c Custom message', 'color:blue;')
+This one gonna change the color of the letters, CUSTOM defines what we want
+
+*/
+
+
+/*
+SECOND ANSWER
+LET AND var
+
+LET is local
+VAR is global
+
+that means that we cant change the let variable outside the closure
+but var variable we can manage from outside
+Example:
+
+var a = 10;
+console.log(a);
+
+var a = null;
+console.log(a);
+
+// LET
+
+{
+
+let city;    
+let name = "Safira";
+name= "Pretty";
+console.log("Using let:", name);
+}
+console.log(name)
+
+
+*/
+
+
+/* THIRD ANSWER
+
+DATA TYPES
+Primitive and Non Primitive
+
+Primitive :
+1. Number = 012
+2. String = "Mary"
+3. Boolean = True or False
+4. NULL 
+5. Undefined, example: var name;
+Its declare, but not iniciated
+6.Symbol 
+const click = Symbol('click');
+
+
+NON-Primitive
+Object
+ they reference a memory location which stores the data
+
+*/
